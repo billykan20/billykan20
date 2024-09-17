@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    long long int phoneNumber; // Long long int for large numbers like phone numbers
+    int mpesaPin;
+
+    printf("Please enter your phone number: ");
+    scanf("%lld", &phoneNumber);
+
+    printf("Enter your M-Pesa PIN: ");
+    scanf("%d", &mpesaPin);
+    
+    printf("You entered phone number: %lld and PIN: %d\n", phoneNumber, mpesaPin);
+
+    return 0;
+}
